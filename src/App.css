@@ -1,0 +1,99 @@
+.app {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+header {
+  border-bottom: 1px solid #D0D3D4;
+  padding: 15px 10%;
+  background: #283747;
+  color: #FFF;
+  font-size: 20px;
+  display: flex;
+}
+
+.form-wrapper {
+  flex: 3;
+  padding: 15px;  
+  border: 1px solid #EBEDEF;  
+  margin: 15px 15px 0 0;
+}
+
+.toolbox-wrapper {
+  flex: 1;
+  border: 1px solid #EBEDEF;    
+  margin: 15px 0 0 0;
+  padding: 15px;
+}
+
+h3 {
+  margin: 0 0 10px 0;
+  font-weight: 500;
+}
+
+.field {
+  display: flex;
+  flex-direction: row;
+}
+
+.field span:nth-child(1) {  
+  flex: 4;
+  padding: 7px 0;
+}
+
+.field span:nth-child(2) {  
+  padding: 0px 10px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.field span:nth-child(2):hover {
+  background-color: #283747;
+  color: #FFF;
+}
+
+.form-field {  
+  display: flex;
+  flex-direction: row;
+  padding: 10px 0;
+}
+
+.form-field div:nth-child(1) {
+  flex: 2
+}
+
+.form-field div:nth-child(2) {
+  flex: 3
+}
+
+.form-field .input input {
+  width: 100%;
+  border: 1px solid #D0D3D4;
+  padding: 5px 10px;
+  box-sizing: border-box;
+}
+
+.form-field select {
+  width: 100%;
+  border: 1px solid #D0D3D4;
+  padding: 5px 10px;
+  box-sizing: border-box;
+}
+
+input[type='submit'] {
+  padding: 5px 10px;
+}
+
+.radio input {
+  margin-right: 10px;
+}
+
+.radio label {
+  margin-right: 10px;
+}
+
+table {
+  width: 100%
+}
